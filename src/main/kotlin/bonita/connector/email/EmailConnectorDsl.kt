@@ -46,4 +46,6 @@ class EmailConnectorDsl (connectorBuilder: org.bonitasoft.engine.dsl.process.Con
      */
     fun message(expression: ExpressionDSLBuilder) = connectorBuilder.input("message", expression)
 
+    fun sslSupport(expression: ExpressionDSLBuilder) = connectorBuilder.input("sslSupport", expression)
+
 }
