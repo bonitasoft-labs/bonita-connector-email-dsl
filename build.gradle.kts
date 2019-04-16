@@ -4,7 +4,7 @@ plugins {
     id("org.jetbrains.dokka") version "0.9.17"
 }
 group = "org.bonitasoft.connectors"
-version = "6.1.0"
+version = "1.1.0"
 
 repositories {
     mavenLocal()
@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.bonitasoft.connectors:bonita-connector-email-impl:6.1.0")
+    implementation("org.bonitasoft.connectors:bonita-connector-email:1.1.0")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.bonitasoft.engine.dsl:process-kotlin-dsl:0.0.1")
 
